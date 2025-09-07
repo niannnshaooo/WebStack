@@ -16,12 +16,12 @@ include( 'templates/header-nav.php' );
 ?>
 <div class="main-content">
 <?php include( 'templates/header-banner.php' ); ?>
-	<div id="search" class="s-search">
+	<!-- <div id="search" class="s-search">
 		<form name="formsearch" method="get" action="<?php bloginfo('url'); ?>?s=" id="super-search-fm">
             <input type="text" id="search-text" name="s" class="search-keyword" placeholder="<?php _e('输入关键字搜索','i_theme') ?>" style="outline:0"/> 
             <button type="submit" οnmοuseοut="this.className='select_class'" οnmοuseοver="this.className='select_over'" ><i class="fa fa-search "></i></button>
         </form>
-	</div>
+	</div> -->
 
 	<div class="row">
 		<div class="col-12 col-lg-8 mx-auto">
