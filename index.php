@@ -20,13 +20,6 @@ include( 'templates/header-nav.php' );
  
 <?php get_template_part( 'templates/bulletin' ); ?>
 
-<?php
-if(io_get_option('is_search')){include('search-tool.php'); }
-else{?>
-<div class="no-search"></div>
-<?php
-}
-?>
 
 <div class="sites-list" style="margin-bottom: 8.5rem;">
 <?php if(!wp_is_mobile() && io_get_option('ad_home_s')) echo '<div class="row"><div class="ad ad-home col-md-6">' . stripslashes( io_get_option('ad_home') ) . '</div><div class="ad ad-home col-md-6 visible-md-block visible-lg-block">' . stripslashes( io_get_option('ad_home') ) . '</div></div>'; ?>        
