@@ -24,6 +24,9 @@ include( 'templates/header-nav.php' );
 <div class="main-content">
     
 <?php include( 'templates/header-banner.php' ); ?>
+
+    <div class="no-search"></div>
+	
     <h4 class="text-gray"><i class="icon-io-tag" style="margin-right: 27px;" id="<?php single_cat_title() ?>"></i><?php single_cat_title() ?></h4>
 	<?php
     if($__visible == 2){
